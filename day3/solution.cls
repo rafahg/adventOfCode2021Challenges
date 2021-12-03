@@ -41,8 +41,7 @@ public with sharing class AdventOfCode2021Day3 {
 
         Integer finalGamma = binaryToInteger(String.join(gammaString,('')));
         Integer finalEpsilon = binaryToInteger(String.join(epsilonString,('')));
-        System.debug(finalGamma);
-        System.debug(finalEpsilon);
+     
         return finalGamma * finalEpsilon;
     }
 
@@ -55,6 +54,7 @@ public with sharing class AdventOfCode2021Day3 {
             Integer one = 0;
             Integer zero = 0;
             for(Integer row = 0; row < inputs.size(); row++) {
+                // value of 1 is 48 , apparently thanks Apex!
                 if( inputs[row].charAt(column) == 48) {
                     zero +=1;
                 } else {
@@ -82,6 +82,7 @@ public with sharing class AdventOfCode2021Day3 {
             Integer one = 0;
             Integer zero = 0;
             for(Integer row = 0; row < inputs.size(); row++) {
+                // Value of 1 is 48, apparently, thanks Apex!
                 if( inputs[row].charAt(column) == 48) {
                     zero +=1;
                 } else {
@@ -103,7 +104,8 @@ public with sharing class AdventOfCode2021Day3 {
     }
 
 
-
+      // The solution, at this point I was looking for all the people in the submarine were running out of oxygen.....
+    
     public static Integer lifeSupport() {
         Integer oxigen = (gettingTheOxygen(inputs));
         Integer co2 = (gettingTheCO2(inputs));
