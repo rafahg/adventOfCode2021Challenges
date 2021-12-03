@@ -108,14 +108,7 @@ public with sharing class AdventOfCode2021Day3 {
 
 
 
-    public static List<List<String>> manageData(List<String> inputs)  {
-        List<List<String>> dataOrganised= new List<List<String>>();
-
-        for(String input : inputs) {
-            dataOrganised.add(input.split(''));
-        }
-        return dataOrganised;
-    }
+   
 
 
 
@@ -125,6 +118,15 @@ public with sharing class AdventOfCode2021Day3 {
         String inputContent = input.body.toString();
         List<String> finalInput = inputContent.split('\\n');
         return finalInput;
+    }
+    
+     public static List<List<String>> manageData(List<String> inputs)  {
+        List<List<String>> dataOrganised= new List<List<String>>();
+
+        for(String input : inputs) {
+            dataOrganised.add(input.split(''));
+        }
+        return dataOrganised;
     }
 
     public static Integer binaryToInteger(String value) {
