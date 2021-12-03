@@ -113,11 +113,6 @@ public with sharing class AdventOfCode2021Day3 {
     }
 
 
-
-   
-
-
-
     // Helpers
     public static List<String> getInput(String day) {
         StaticResource  input = [Select Id, body from StaticResource where Name=:day];
