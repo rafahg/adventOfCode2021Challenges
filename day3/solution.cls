@@ -54,7 +54,7 @@ public with sharing class AdventOfCode2021Day3 {
             Integer one = 0;
             Integer zero = 0;
             for(Integer row = 0; row < inputs.size(); row++) {
-                // value of 1 is 48 , apparently thanks Apex!
+                // value of 0 is 48 , apparently thanks Apex!
                 if( inputs[row].charAt(column) == 48) {
                     zero +=1;
                 } else {
