@@ -1,6 +1,8 @@
 public with sharing class AdventOfCode2021Day3 {
 
     public static List<String> inputs = getInput('inputDay3');
+    
+    // Solution A
     public static Integer gammaEpsilonValues(List<List<String>> inputs) {
         Integer finalNumber;
         List<String> epsilonString = new List<String>();
@@ -44,6 +46,8 @@ public with sharing class AdventOfCode2021Day3 {
         return finalGamma * finalEpsilon;
     }
 
+    
+    // Solution B
     public static Integer gettingTheOxygen(List<String> inputs) {
         Integer Oxygen;
         Integer column = 0;
