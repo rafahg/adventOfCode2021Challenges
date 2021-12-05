@@ -2,7 +2,7 @@
 
 public with sharing class AdventOfCode2021Day5 {
 
-      // Solution Part 1 and Part 2. Part 1 uses the List<String> generated in 'CleaningCordinates' methods
+      // Solution Part 1 and Part 2. Part 1 uses the List<String> generated in 'CleaningCordinates' method
       // Solution Part2 uses the List<String> generated in 'getInput' method.
     public static Integer matchingCoordinates(List<String> allPoints) {
         System.debug(allPoints);
