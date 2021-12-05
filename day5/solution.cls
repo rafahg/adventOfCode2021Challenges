@@ -1,4 +1,4 @@
-
+// Serious refactoring Incoming.....by now works which is more than I expected when I started....
 
 public with sharing class AdventOfCode2021Day5 {
 
