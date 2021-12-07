@@ -41,7 +41,7 @@ public with sharing class AdventOfCode2021Day7 {
 
     // After getting crazy cause I could not adapt the first solution to the second
     // due efficiency issues, I found around (don't ask) that the average of the positions
-    // is the longest position any crap should make. Having that in account for the part 2
+    // is the longest position any crab should make. Having that in account for the part 2
     // I coded this solution much more simpler than the first one but less beautiful for complexity lovers
     // like me.
     public static Integer alignPositionsComplex(List<String> positions) {
