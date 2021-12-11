@@ -1,6 +1,4 @@
-/**
- * Created by rafaelhernandez on 11/12/2021.
- */
+
 
 global  with sharing class Stack {
     private List<Object> items {get; set;}
