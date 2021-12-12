@@ -41,8 +41,6 @@ public with sharing class AdventOfCode2021Day11 {
       step += 1;
     }
 
-    // Print both solutions :
-
     System.debug('First step in which all octopuses flahs is: ' + step);
   }
 
